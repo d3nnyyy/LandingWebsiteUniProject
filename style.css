@@ -59,3 +59,41 @@ nav .right-side-nav a:hover {
         color: #fff;
         transition: 0.5s;
 }
+
+/* Dowload container */
+
+.download-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+}
+
+.download-text {
+        width: 50%;
+}
+
+.download-text h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #202336;
+}
+
+.download-text p {
+        font-family: 'Muli', serif;
+        font-size: 17px;
+        color: #B8BECD;
+        margin: 10px 0 30px 0;
+}
+
+.download-text .download-btn {
+        background-color: #FB8F1D;
+        color: #fff;
+        padding: 10px 50px;
+        border-radius: 5px;
+}
+
+.download-image {
+        transform: scale(0.7);
+}
