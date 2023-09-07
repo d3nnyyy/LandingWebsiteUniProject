@@ -24,6 +24,18 @@ a {
         text-decoration: none;
 }
 
+.arrow {
+        border: solid #FB8F1D;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+}
+
+.right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+}
+
 /* Header */
 
 nav {
@@ -153,4 +165,83 @@ nav .right-side-nav a:hover {
         height: 50px;
         border-radius: 50%;
         margin-right: 10px;
+}
+
+/* Trending Stories */
+
+.trending-stories-container {
+        margin: 20px 0;
+}
+
+.trending-stories-container .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.trending-stories-container .heading h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #202336;
+}
+
+.trending-stories-container .heading a {
+        display: flex;
+        color: #FB8F1D;
+        align-items: center;
+}
+
+.trending-stories-container .heading a p {
+        line-height: 60px;
+        font-family: 'Inter', serif;
+        font-size: 17px;
+        font-weight: 600;
+
+}
+
+
+.trending-stories-container .images-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+}
+
+.images-section .image-container {
+        width: calc(75% - 10px);
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+}
+
+.image-container img {
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+        object-fit: cover;
+}
+
+.image-container h3 {
+        font-family: 'Inter', serif;
+        font-size: 19px;
+        line-height: 30px;
+        font-weight: 700;
+}
+
+.image-container p {
+        font-family: 'Inter', serif;
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #7D7987;
+}
+
+.image-container .read-more {
+        font-family: 'Inter', serif;
+        color: #FB8F1D;
+        font-weight: 600;
+        line-height: 28px;
+        font-size: 15px;
+        padding-top: 10px;
 }
