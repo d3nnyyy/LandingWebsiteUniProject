@@ -46,7 +46,7 @@
 }
 
 #image-1 {
-        background: url(/resources/image\ 12.png);
+        background: url(resources/image\ 12.png);
 }
 
 #image-2 {
@@ -62,7 +62,6 @@
 }
 
 .image-container .image {
-        background: url(/resources/image\ 12.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
