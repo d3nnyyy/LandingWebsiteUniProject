@@ -1,0 +1,43 @@
+/* Header */
+
+nav {
+        margin: 0 12rem;
+        display: flex;
+        color: #fff;
+        padding: 0 5px;
+        justify-content: space-between;
+        align-items: center;
+}
+
+nav .left-side-nav a {
+        padding: 5px;
+        color: #B8BECD;
+        font-size: 16px;
+        font-family: 'Inter', serif;
+        font-weight: 400;
+
+}
+
+nav .left-side-nav a:hover {
+        color: #202336;
+        font-weight: 500;
+        transition: 0.5s;
+}
+
+nav .logo {
+        transform: scale(0.8);
+        padding: 10px;
+}
+
+nav .right-side-nav a {
+        color: #FB8F1D;
+        padding: 10px 50px;
+        border: #FB8F1D 1px solid;
+        border-radius: 5px;
+}
+
+nav .right-side-nav a:hover {
+        background: #FB8F1D;
+        color: #fff;
+        transition: 0.5s;
+}

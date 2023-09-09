@@ -1,0 +1,43 @@
+/* Dowload container */
+
+.download-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 12rem;
+}
+
+.download-text {
+        width: 50%;
+}
+
+.download-text h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        color: #202336;
+}
+
+.download-text p {
+        font-family: 'Muli', serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #B8BECD;
+        margin: 10px 0 30px 0;
+}
+
+.download-text .download-btn {
+        font-family: 'Inter', serif;
+        font-size: 16px;
+        line-height: 60px;
+        background-color: #FB8F1D;
+        color: #fff;
+        padding: 10px 50px;
+        border-radius: 5px;
+}
+
+.download-image {
+        transform: scale(0.8);
+}
