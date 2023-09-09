@@ -1,5 +1,8 @@
 @import url(header.css);
 @import url(download-container.css);
+@import url(trending-stories-container.css);
+@import url(testimonials-container.css);
+@import url(footer.css);
 
 * {
         margin: 0;
