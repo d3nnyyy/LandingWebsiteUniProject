@@ -3,6 +3,11 @@
 
 <head>
         <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display:wght@700&display=swap"
+                rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing page</title>
@@ -11,6 +16,11 @@
 <body>
 
         <nav>
+                <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                </div>
                 <div class="left-side-nav">
                         <a href="#" class="current">Home</a>
                         <a href="#">Destinations</a>
@@ -35,12 +45,14 @@
                         <a class="download-btn" href="#">
                                 Download
                         </a>
-
                 </div>
-                <div class="download-image">
-                        <img src="resources/Thousand-03.png" alt="download-image">
-                </div>
+                <img src="resources/Thousand-03.png" alt="download-image">
+                <a class="download-btn-phone" href="#">
+                        Download
+                </a>
         </div>
+
+
 
         <div class="testimonials-container">
                 <h1>Testimonials</h1>
@@ -55,17 +67,25 @@
                                         facilisis quis purus. Morbi blandit sit amet turpis nec”
                                 </p>
                                 <div class="testimonials-author">
-                                        <h4>Edward Newgate</h4>
-                                        <p>Founder Circle</p>
-
+                                        <div class="author-image-phone">
+                                                <img src="resources/photo.png" alt="photo">
+                                        </div>
+                                        <div class="author-info">
+                                                <h4>Edward Newgate</h4>
+                                                <p>Founder Circle</p>
+                                        </div>
+                                </div>
+                                <div class="stars-phone">
+                                        <img src="resources/stars.png" alt="stars">
                                 </div>
                         </div>
-                        <div class="testimonials-image">
+                        <div class="author-image">
                                 <img src="resources/photo.png" alt="photo">
-
                         </div>
                 </div>
         </div>
+
+
 
         <div class="trending-stories-container">
                 <div class="heading">
@@ -107,6 +127,8 @@
                 </div>
         </div>
 
+
+
         <footer>
                 <div class="upper-footer">
                         <div class="logo">
@@ -116,11 +138,21 @@
                 </div>
                 <div class="horizontal-line"></div>
                 <div class="social-media">
-                        <img src="resources/social-media/twitter.png" alt="twitter">
-                        <img src="resources/social-media/facebook.png" alt="facebook">
-                        <img src="resources/social-media/instagram.png" alt="instagram">
-                        <img src="resources/social-media/linkedin.png" alt="linkedin">
-                        <img src="resources/social-media/youtube.png" alt="youtube">
+                        <a href="https://twitter.com/">
+                                <img src="resources/social-media/twitter.png" alt="twitter">
+                        </a>
+                        <a href="https://facebook.com/">
+                                <img src="resources/social-media/facebook.png" alt="facebook">
+                        </a>
+                        <a href="https://instagram.com/">
+                                <img src="resources/social-media/instagram.png" alt="instagram">
+                        </a>
+                        <a href="https://linkedin.com/">
+                                <img src="resources/social-media/linkedin.png" alt="linkedin">
+                        </a>
+                        <a href="https://youtube.com/">
+                                <img src="resources/social-media/youtube.png" alt="youtube">
+                        </a>
                 </div>
         </footer>
 
