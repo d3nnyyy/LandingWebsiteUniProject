@@ -1,5 +1,7 @@
 /* Header */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 nav {
         margin: 0 12rem;
         display: flex;
@@ -26,7 +28,6 @@ nav .left-side-nav a:hover {
 
 nav .logo {
         transform: scale(0.8);
-        padding: 10px;
 }
 
 nav .right-side-nav a {
@@ -40,4 +41,49 @@ nav .right-side-nav a:hover {
         background: #FB8F1D;
         color: #fff;
         transition: 0.5s;
+}
+
+.hamburger-menu {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 5px;
+}
+
+.bar {
+        width: 25px;
+        height: 3px;
+        background-color: #FB8F1D;
+        margin: 3px 0;
+}
+
+@media (max-width: 320px) {
+        nav {
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+        }
+
+        .hamburger-menu {
+                display: flex;
+        }
+
+        .left-side-nav {
+                display: none;
+        }
+
+        .logo {
+                padding-top: 5px;
+                transform: scale(0.6);
+        }
+
+        .right-side-nav {
+                display: block;
+        }
+
+        .right-side-nav a {
+                font-size: 10px;
+                padding: 5px 10px !important;
+        }
+
 }
