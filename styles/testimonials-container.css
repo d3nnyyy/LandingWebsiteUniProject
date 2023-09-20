@@ -1,5 +1,7 @@
 /* Testimonials container */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .testimonials-container {
         padding: 3rem 12rem;
         margin: 40px 0;
@@ -39,14 +41,19 @@
         margin: 10px 0 30px 0;
 }
 
-.testimonials-author h4 {
+.author-image-phone,
+.stars-phone {
+        display: none;
+}
+
+.author-info h4 {
         font-family: 'Inter', serif;
         font-size: 22px;
         font-weight: 700;
         color: #000;
 }
 
-.testimonials-author p {
+.author-info p {
         font-family: 'Inter', serif;
         line-height: 48px;
         font-weight: 400;
@@ -55,21 +62,63 @@
         opacity: 0.85;
 }
 
-.testimonials-text .testimonials-image {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-}
+@media screen and (max-width: 320px) {
 
-.arrow {
-        border: solid #FB8F1D;
-        border-width: 0 2px 2px 0;
-        display: inline-block;
-        padding: 3px;
-}
+        .testimonials-container {
+                padding: 3rem 0rem;
+        }
 
-.right {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
+        .testimonials-container h1 {
+                text-align: center;
+        }
+
+        .testimonials-info {
+                margin-top: 30px;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .author-image,
+        .stars {
+                display: none;
+        }
+
+        .author-image-phone,
+        .stars-phone {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+        }
+
+        .author-image-phone img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+        }
+
+        .testimonials-text {
+                width: 90%;
+        }
+
+        .testimonials-text p {
+                margin: 0;
+                text-align: center;
+                width: 100%;
+                line-height: 1.5rem;
+                font-size: 1rem;
+        }
+
+        .testimonials-author {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin: 20px 0;
+                gap: 20px;
+        }
+
+
 }
