@@ -35,7 +35,7 @@
         font-size: 16px;
         background-color: #FB8F1D;
         color: #fff;
-        padding: 7px 50px;
+        padding: 10px 50px;
         border-radius: 5px;
 }
 
@@ -43,8 +43,10 @@
         color: #FB8F1D;
         background-color: #fff;
         border: #FB8F1D 1px solid;
-        transition: 0.5s;
+        transform: scale(1.05);
+        transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.2s ease-in-out;
 }
+
 
 .download-btn-phone {
         display: none;
@@ -52,6 +54,11 @@
 
 .download-container img {
         transform: scale(0.8);
+}
+
+.download-container img:hover {
+        transform: scale(0.85);
+        transition: transform 0.5s ease-out;
 }
 
 @media screen and (max-width: 320px) {
