@@ -26,12 +26,19 @@ nav {
 .left-side-nav a:hover {
         color: #202336;
         font-weight: 500;
-        transition: 0.5s;
+        transition: color 0.5s ease-in-out, transform 0.2s ease-in-out;
+        transform: scale(1.1);
 }
 
 nav .logo {
         transform: scale(0.8);
 }
+
+.logo:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s linear;
+}
+
 
 .right-side-nav {
         display: flex;
@@ -60,13 +67,13 @@ nav .logo {
 .button-white:hover {
         background: #FB8F1D;
         color: #fff;
-        transition: 0.5s;
+        transition: 0.5s linear;
 }
 
 .button-orange:hover {
         background: #fff;
         color: #FB8F1D;
-        transition: 0.5s;
+        transition: 0.5s linear;
 }
 
 .hamburger-menu {
