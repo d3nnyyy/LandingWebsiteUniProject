@@ -28,7 +28,6 @@
 }
 
 .testimonials-text .stars {
-        height: 24px;
         margin: 10px 0 30px 0;
 }
 
@@ -118,6 +117,41 @@
                 display: flex;
                 margin: 20px 0;
                 gap: 20px;
+        }
+
+}
+
+@media screen and (min-width: 2560px) {
+
+        .testimonials-container h1 {
+                font-size: 5rem;
+        }
+
+        .testimonials-info {
+                margin-top: 0;
+        }
+
+        .testimonials-text .stars img {
+                height: 3rem;
+        }
+
+        .testimonials-text p {
+                width: 100%;
+                font-size: 3rem;
+                line-height: 3rem;
+        }
+
+        .author-image img {
+                width: 40rem;
+        }
+
+        .author-info h4 {
+                font-size: 3rem;
+        }
+
+        .author-info p {
+                font-size: 2rem;
+                line-height: 3rem;
         }
 
 
