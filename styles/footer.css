@@ -64,3 +64,19 @@ footer {
         }
 
 }
+
+@media screen and (min-width: 2560px) {
+
+        .upper-footer p {
+                font-size: 2rem;
+        }
+
+        .social-media {
+                gap: 40px;
+        }
+
+        .social-media img {
+                transform: scale(150%);
+        }
+
+}
