@@ -142,3 +142,52 @@
         }
 
 }
+
+@media screen and (min-width: 2560px) {
+
+        .heading h1 {
+                font-size: 5rem;
+        }
+
+        .heading a p {
+                font-size: 2rem;
+        }
+
+        .arrow {
+                border-width: 0 4px 4px 0;
+                padding: 5px;
+        }
+
+        .images-section {
+                align-items: start;
+        }
+
+        .image-container h3 {
+                margin: 1rem 0;
+                font-size: 2rem;
+                text-align: center;
+        }
+
+        .image-container p {
+                text-align: center;
+                font-size: 1.5rem;
+        }
+
+        .image-container .read-more {
+                font-size: 1.5rem;
+        }
+
+        .image-container .image {
+                border-radius: 15px;
+                height: 500px !important;
+                width: 500px !important;
+                background-size: cover !important;
+                background-repeat: no-repeat !important;
+        }
+
+        .image-container {
+                align-items: center;
+                justify-content: center;
+        }
+
+}
