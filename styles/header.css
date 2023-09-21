@@ -11,8 +11,8 @@ nav {
         align-items: center;
 }
 
-nav .left-side-nav a {
-        padding: 5px;
+.left-side-nav a {
+        padding: 5px 15px;
         color: #B8BECD;
         font-size: 16px;
         font-family: 'Inter', serif;
@@ -20,7 +20,12 @@ nav .left-side-nav a {
 
 }
 
-nav .left-side-nav a:hover {
+.left-side-nav .current {
+        color: #202336;
+        font-weight: 500;
+}
+
+.left-side-nav a:hover {
         color: #202336;
         font-weight: 500;
         transition: 0.5s;
@@ -30,16 +35,39 @@ nav .logo {
         transform: scale(0.8);
 }
 
-nav .right-side-nav a {
-        color: #FB8F1D;
-        padding: 10px 50px;
-        border: #FB8F1D 1px solid;
+.right-side-nav {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 0;
+}
+
+.right-side-nav a {
+        padding: 7px 50px;
         border-radius: 5px;
 }
 
-nav .right-side-nav a:hover {
+.button-white {
+        background-color: #fff;
+        color: #FB8F1D;
+        border: #FB8F1D 1px solid;
+}
+
+.button-orange {
+        background-color: #FB8F1D;
+        color: #fff;
+        border: #FB8F1D 1px solid;
+}
+
+.button-white:hover {
         background: #FB8F1D;
         color: #fff;
+        transition: 0.5s;
+}
+
+.button-orange:hover {
+        background: #fff;
+        color: #FB8F1D;
         transition: 0.5s;
 }
 
