@@ -45,6 +45,10 @@
         width: calc(75% - 10px);
 }
 
+.image-container:hover {
+        transform: translateY(-10px);
+}
+
 #image-1 {
         background: url(/resources/image\ 12.png);
 }
@@ -111,9 +115,28 @@
                 margin: 0 10px;
         }
 
-        .trending-stories-container .heading h1 {
-                font-size: 1.5rem;
+        .image-container:hover {
+                transform: translateY(0);
         }
+
+        .heading {
+                margin: 0 1rem;
+        }
+
+        .heading h1 {
+                text-align: center;
+                font-size: 1.4rem;
+        }
+
+        .heading a p {
+                font-size: 0.7rem;
+        }
+
+        .arrow {
+                border-width: 0 1px 1px 0;
+                padding: 2px;
+        }
+
 
         .images-section {
                 margin: 1.5rem 0;
@@ -145,8 +168,13 @@
 
 @media screen and (min-width: 2560px) {
 
+        .heading {
+                margin-bottom: 4rem;
+        }
+
         .heading h1 {
                 font-size: 5rem;
+
         }
 
         .heading a p {

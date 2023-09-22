@@ -21,7 +21,7 @@
 }
 
 .download-text p {
-        font-family: 'Muli', serif;
+        font-family: 'Mulish', serif;
         font-size: 17px;
         font-weight: 300;
         line-height: 30px;
@@ -78,15 +78,17 @@
         }
 
         .download-text h1 {
+                text-align: center;
                 font-size: 24px;
                 line-height: 30px;
                 margin: 0;
         }
 
         .download-text p {
+                text-align: center;
                 font-size: 14px;
                 line-height: 20px;
-                margin: 10px 0;
+                margin: 10px 1rem;
         }
 
         .download-btn {
